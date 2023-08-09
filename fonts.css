@@ -1,0 +1,17 @@
+@font-face {
+    font-family: OSanse;
+    src: url(/resources/fonts/OpenSans-Regular.ttf);
+}
+
+.logo {
+    font-family: 'Noto Sans', sans-serif;    
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;    
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
