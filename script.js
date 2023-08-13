@@ -64,6 +64,79 @@ ingredients.forEach((element) => {
 
 
 
+/* //////////////////////////    4    /////////////////////////////// */ 
+
+// const counterValueElem = document.querySelector('#value');
+
+// const stepDown = document.querySelector('button[data-action="decrement"]');
+// const stepUp = document.querySelector('button[data-action="increment"]');
+
+// let counterValue = 0;
+
+// function updateCounterValueElem() {
+//     counterValueElem.textContent = counterValue;
+// }
+
+// const decrementF = () => {
+//     counterValue -= 1;
+//     updateCounterValueElem();
+// };
+
+// const incrementF = () => {
+//     counterValue += 1;
+//     updateCounterValueElem();
+// };
+
+// stepDown.addEventListener("click", decrementF);
+// stepUp.addEventListener("click", incrementF);
+/* //////////////////////////    4    /////////////////////////////// */ 
+
+
+
+/* //////////////////////////    5    /////////////////////////////// */ 
+// const inputField = document.querySelector("#name-input");
+// const outputField = document.querySelector("#name-output");
+
+// const funcForOutput = (event => {
+//     outputField.textContent = event.currentTarget.value;
+// })
+
+// inputField.addEventListener("input", funcForOutput);
+/* //////////////////////////    5    /////////////////////////////// */ 
+
+
+/* //////////////////////////    6    /////////////////////////////// */ 
+// const textInput = document.querySelector("#validation-input");
+// const lineLengthTemplate = parseInt(textInput.getAttribute('data-length'));
+
+
+// const funcCheckLength = () => {
+//     textInput.classList.remove('valid', 'invalid');
+//     if (textInput.value.length === lineLengthTemplate) {
+//         textInput.classList.add('valid');}
+//     else {textInput.classList.add('invalid');}
+    
+// }
+
+// textInput.addEventListener("blur", funcCheckLength);
+/* //////////////////////////    6    /////////////////////////////// */ 
+
+
+
+/* //////////////////////////    7    /////////////////////////////// */ 
+// const textInput = document.querySelector('#font-size-control');
+// const textSpan = document.querySelector('#text');
+
+// const changeFontSize = () => {
+//     const takeFontSize = textInput.value + "px";
+//     textSpan.style.fontSize = takeFontSize;
+// };
+
+// textInput.addEventListener("input", changeFontSize);
+/* //////////////////////////    7    /////////////////////////////// */ 
+
+
+
 
 
 
